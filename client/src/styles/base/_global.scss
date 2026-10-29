@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as *;
+
+body {
+  color: $text-color;
+  background: #fff;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}

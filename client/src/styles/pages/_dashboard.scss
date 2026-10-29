@@ -1,0 +1,55 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+
+  .app-sidebar {
+    background-color: rgb(205, 172, 129);
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .main-content {
+    background-color: antiquewhite;
+
+    .guess-game {
+      display: none;
+    }
+
+    .game-title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .game-score {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .number-range {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .game-form {
+        background-color: rgb(102, 162, 142);
+        padding: 1rem;
+      }
+
+      .score-display {
+        background-color: aquamarine;
+        padding: 1rem;
+        .score-stat {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 1rem;
+        }
+      }
+    }
+  }
+}

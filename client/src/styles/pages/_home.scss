@@ -1,0 +1,25 @@
+.home-page {
+  min-height: 100vh;
+  background-color: aliceblue;
+
+  .main-container {
+    background-color: rgb(251, 251, 251);
+
+    display: grid;
+    grid-template-columns: 6rem 1fr 6rem;
+
+    .main-content {
+      grid-column: 2/3;
+    }
+  }
+
+  .hero {
+    padding: 80px 0;
+    background-color: aqua;
+  }
+
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
